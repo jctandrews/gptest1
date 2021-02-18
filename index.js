@@ -114,6 +114,7 @@ function makesound(key){
       break;
     case "a":
       aSound.play();
+        document.querySelector("footer").style.backgroundColor ="red";
       break;
     case "s":
         sSound.play();
@@ -124,6 +125,7 @@ function makesound(key){
       break;
       case "j":
         jSound.play();
+        document.querySelector("footer").style.backgroundColor ="blue";
         break;
     case "k":
       kSound.play();
